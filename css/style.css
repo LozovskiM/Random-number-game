@@ -1,0 +1,35 @@
+body {
+  background-image: url(../images/pexels-photo-273026.jpeg);
+  background-size: cover;
+}
+
+#page_container {
+  width: 600px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #1d1d1f;
+  color: #d0d4d7;
+  font-family: monospace;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+#id_button {
+  background-color: #d0d4d7;
+  color: red;
+  font-weight: bold;
+  border: solid 2px #d0d4d7;
+  padding: 4px;
+  border-radius: 5%;
+}
+
+#id_button:hover {
+  background-color : red;
+  color: #d0d4d7;
+}
+
+#check_answer {
+  font-size: 18px;
+}
